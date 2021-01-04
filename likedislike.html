@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <i class="fa fa-thumbs-o-up " onclick="thumbsup()" style="color: darkgray;font-size: 100px;"><span id="like_id"></span></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-thumbs-o-down " onclick="thumbsdown()" style="color: darkgray;font-size: 100px;"><span id=dislike_id></span></i>
+        <script>
+            var like=0;
+            var dislike=0;
+            function thumbsup(){
+            if(document.getElementById("like_id").innerHTML==0){
+                like=1
+                dislike=0
+                document.getElementById("dislike_id").innerHTML=dislike;
+                document.getElementById("like_id").innerHTML=like;
+            }
+            else {
+                like=0
+                document.getElementById("like_id").innerHTML==like;
+            }
+        }
+            function thumpsdown(){
+            if(document.getElementById("dislike_id").innerHTML==0){
+                dislike=1
+                like=0
+                document.getElementById("like_id").innerHTML=like;
+                document.getElementById("dislike_id").innerHTML=dislike;
+            }
+            else {
+                dislike=0
+                document.getElementById("dislike_id").innerHTML==dislike;
+            }
+        }
+        </script>
+    </body>
+</html>
