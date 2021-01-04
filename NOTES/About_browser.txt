@@ -1,0 +1,15 @@
+How Web browser works??? 
+
+->A web browser is nothing but a software application.
+
+->It retrieves the information through a unique URL(UNIFORM RESOURCDE LOCATOR).
+
+->Everything on the internet including photos, text, and videos have unique URL’s that help browsers to locate the information and retrieve it when the user demands it.
+
+->The main function of the web browser is to fetch the information from the server and show it to the user in a human-understandable format.
+ 
+->All URL’s on the internet begin with HTTP: or HTTPS:
+
+->The term ‘HTTP’ means "hypertext transfer protocol" while the ‘s’ means all the data moves through a secured layer on the internet.
+
+->Browser then sends the URL to the DNS (Domain Name Server) which then identifies the location of the server and sends information back to the browser. Once the web browser retrieves the information, it starts showing it to the user.
