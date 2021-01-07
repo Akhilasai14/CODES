@@ -1,0 +1,21 @@
+<html>
+    <head>
+</head>
+<body style="background-color:slateblue;">
+    <center><label>USERNAME:</label><input type="text" id="uname"><br><br>
+    <label>PASSWORD:</label><input type="password" id="pwd"><br><br>
+    <button  onclick="login()">LOGIN</button></center>
+    <script>
+        function login(){
+           var a= document.getElementById("uname").value;
+            var b=document.getElementById("pwd").value;
+            if(a!="Akhila" && b!="Akhila"){
+                alert("Check Username and password")
+            }
+            else{
+                alert("LOGIN SUCCESS")
+            }
+        }
+    </script>
+</body>
+</html>
