@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>LOGIN PAGE</title>
+    </head>
+    <body style="background-color: aquamarine;">
+       <center> <label>USERNAME:</label><input type="text" id="uname" ><br><br>
+        <label>PASSWORD:</label><input type="password" id="pwd"><br><br>
+        <button onclick="login()">SUBMIT</button></center>
+        <script>
+            function login(){
+                event.preventDefault();
+           var name=document.getElementById("uname").value;
+           var passcode=document.getElementById("pwd").value;
+                if(name=="Akhila" && passcode=="@khil@"){
+                    alert("Login Success")
+                }
+             else{
+                 alert("Enter Valid Data")
+             }
+            }
+        </script>
+    </body>
+</html>

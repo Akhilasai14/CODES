@@ -25,7 +25,7 @@ function f1(){
     c=a%b;
     console.log(c);
 }
-f1();
+f1(); //global variable.
 
 
 
