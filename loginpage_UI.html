@@ -3,16 +3,18 @@
 
     </head>
     <body style="background-color: lightcoral;">
-        <center>
-       <label>USERNAME: </label><input type="text" id="username"><br><br>
-       <label>PASSWORD: </label><input type="password" id="password"><br><br>
-       <input type="button" onclick="login()" value="submit"></center>
+
+       <label style="margin-left:25%">USERNAME: </label><input type="text" id="username"><br><br>
+       <label style="margin-left:25%">PASSWORD: </label><input type="password" id="password"><br><br>
+       <input type="button" onclick="login()" style="margin-left:25%" value="submit">
        <script>
            function login(){
                 var username=document.getElementById("username").value;
-                alert("USERNAME:"+username,"PASSWORD:"+password);
                 var password=document.getElementById("password").value;
-                alert("PASSWORD:"+password);
+                          alert("USERNAME:"+username);
+                          alert("PASSWORD:"+password);
+
+                
                 
            }
        </script>
